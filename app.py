@@ -5,21 +5,17 @@ import asyncio
 from dotenv import load_dotenv
 import os
 
-# Load environment variables
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-# Intents
 intents = discord.Intents.default()
 intents.messages = True
 intents.guilds = True
 intents.voice_states = True
 intents.message_content = True
 
-# Bot setup
 bot = commands.Bot(command_prefix="m!", intents=intents)
 
-# Join command
 @bot.command(name="join")
 async def join(ctx):
     if ctx.author.voice:
@@ -28,7 +24,6 @@ async def join(ctx):
     else:
         await ctx.send("You need to be in a voice channel to use this command.")
 
-# Leave command
 @bot.command(name="leave")
 async def leave(ctx):
     if ctx.voice_client:
@@ -36,7 +31,6 @@ async def leave(ctx):
     else:
         await ctx.send("I'm not in a voice channel.")
 
-# Play command
 @bot.command(name="play")
 async def play(ctx, *, search: str):
     if not ctx.voice_client:
@@ -71,7 +65,6 @@ async def play(ctx, *, search: str):
     ctx.voice_client.source.volume = 0.5  # Adjust volume to prevent distortion
     await ctx.send(f"Now playing: {info['title']}")
 
-# Stop command
 @bot.command(name="stop")
 async def stop(ctx):
     if ctx.voice_client and ctx.voice_client.is_playing():
@@ -80,5 +73,4 @@ async def stop(ctx):
     else:
         await ctx.send("No music is playing.")
 
-# Run the bot
 bot.run(BOT_TOKEN)
