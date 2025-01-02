@@ -11,7 +11,7 @@ yt_dlp
 PyNaCl
 
 
-When installing normally without pterodactyl you need to create a file named .env in the same folder as app.py, this file needs to contain the following: BOT_TOKEN: "your_bot_token"
+When installing normally without pterodactyl you need to create a file named .env in the same folder as app.py, this file needs to contain the following: BOT_TOKEN='your_bot_token'
 
 
 
