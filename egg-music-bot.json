@@ -13,7 +13,7 @@
         "Python 3.12": "ghcr.io\/parkervcp\/yolks:python_3.12"
     },
     "file_denylist": [],
-    "startup": "pip install -U --prefix .local discord.py yt-dlp asyncio PyNaCl dotenv; \/usr\/local\/bin\/python \/home\/container\/app.py",
+    "startup": "pip install -U --prefix .local discord.py yt-dlp asyncio PyNaCl python-dotenv; \/usr\/local\/bin\/python \/home\/container\/app.py",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"connected to\"\r\n}",
