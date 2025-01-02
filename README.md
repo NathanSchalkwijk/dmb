@@ -16,4 +16,5 @@ When installing normally without pterodactyl you need to create a file named .en
 
 
 If you don't have a way to host the bot you can ask me to host it for you.
-my discord: @quillieofc
+
+my discord is: @quillieofc
