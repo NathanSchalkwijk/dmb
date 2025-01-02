@@ -4,7 +4,7 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2024-12-29T22:51:49+00:00",
+    "exported_at": "2025-01-02T16:47:15+00:00",
     "name": "Music Bot",
     "author": "oranquil@gmail.com",
     "description": null,
@@ -22,7 +22,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "wget https:\/\/raw.githubusercontent.com\/NathanSchalkwijk\/dmb\/master\/app.py",
+            "script": "apt update\r\napt install wget\r\ngit clone https:\/\/github.com\/NathanSchalkwijk\/dmbMAIN",
             "container": "python:3.10",
             "entrypoint": "bash"
         }
