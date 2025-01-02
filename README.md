@@ -6,7 +6,7 @@ Feel free to use this as a base for coding your own music bot.
 Requirements:
 pip install asyncio
 discord.py
-dotenv
+python-dotenv
 yt_dlp
 PyNaCl
 
