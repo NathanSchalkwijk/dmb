@@ -8,4 +8,4 @@ pip install asyncio
 discord.py
 dotenv
 yt_dlp
-PyNAcL
+PyNaCl
