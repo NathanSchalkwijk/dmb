@@ -4,7 +4,7 @@ Feel free to use this as a base for your own music bot.
 
 
 Requirements:
-asyncio
+pip install asyncio
 discord.py
 dotenv
 yt_dlp
