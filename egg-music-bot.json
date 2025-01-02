@@ -10,7 +10,7 @@
     "description": null,
     "features": null,
     "docker_images": {
-        "Python 3.12": "ghcr.io\/parkervcp\/yolks:python_3.10"
+        "Python 3.10": "ghcr.io\/parkervcp\/yolks:python_3.10"
     },
     "file_denylist": [],
     "startup": "pip install -U --prefix .local discord.py yt-dlp asyncio PyNaCl python-dotenv; \/usr\/local\/bin\/python \/home\/container\/app.py",
@@ -23,7 +23,7 @@
     "scripts": {
         "installation": {
             "script": "git clone https:\/\/github.com\/NathanSchalkwijk\/dmb",
-            "container": "python:3.12",
+            "container": "python:3.10",
             "entrypoint": "bash"
         }
     },
