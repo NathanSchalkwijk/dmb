@@ -7,3 +7,4 @@ Requirements:
 asyncio
 discord.py
 dotenv
+yt_dlp
