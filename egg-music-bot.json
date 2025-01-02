@@ -22,7 +22,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "git clone https:\/\/github.com\/NathanSchalkwijk\/dmb",
+            "script": "wget https:\/\/raw.githubusercontent.com\/NathanSchalkwijk\/dmb\/master\/app.py",
             "container": "python:3.10",
             "entrypoint": "bash"
         }
