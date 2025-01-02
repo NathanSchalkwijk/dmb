@@ -18,3 +18,6 @@ When installing normally without pterodactyl you need to create a file named .en
 If you don't have a way to host the bot you can ask me to host it for you.
 
 my discord is: @quillieofc
+
+
+If you don't know how to get a bot token you can use this guide from writebots: https://www.writebots.com/discord-bot-token/
