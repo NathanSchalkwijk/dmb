@@ -22,7 +22,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "apt update\r\napt install wget\r\ngit clone https:\/\/github.com\/NathanSchalkwijk\/dmbMAIN",
+            "script": "apt update\r\napt install wget\r\ngit clone https:\/\/github.com\/NathanSchalkwijk\/dmb",
             "container": "python:3.10",
             "entrypoint": "bash"
         }
